@@ -1,0 +1,46 @@
+body{font-family: "Microsoft Yahei";}
+.left{ float: left; }
+.right{ float: right; }
+/**
+  首页样式
+**/
+/*navbar part*/
+.brand{
+  padding: 5px;
+}
+
+/*konw-us part*/
+.know-us{
+  list-style: none;
+}
+ul.know-us li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/**
+公司简介页样式
+**/
+.ppart{
+  border-bottom: 1px dashed #666;
+  margin: 0 0 40px;
+  padding: 0 0 10px;
+}
+.ptitle{
+  display: inline-block;
+  background-color: #2196f3;
+  border: 2px solid #2196f3;
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.ptext{
+  text-indent: 2em;
+}
+.pp{
+  color: #b9151b;
+}
